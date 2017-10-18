@@ -1,0 +1,220 @@
+/* Base style */
+body {
+    color: #000000;
+    background: #ffffff;
+	font-family: 'Georgia', 'Source Serif Pro', 'serif','Times New Roman';
+}
+
+ul {
+    margin-bottom: 0%;
+}
+
+a {
+    color: #000000;
+}
+
+#card-container {
+    padding: 3%;
+}
+
+#presentation-container {
+    text-align: right;
+}
+
+.vertical-line {
+    display: block;
+    visibility: visible;
+    border-left: 3px solid #e0e0e0;
+    border-right: : 3px solid #e0e0e0;
+}
+.sub-text {
+    color: #999999;
+}
+
+/* ----------- min-width: 20.0rem ----------- */
+
+@media (min-width: 20.0rem) {
+    .row .column.column-66, .row .column.column-67 {
+        max-width: 100%;
+    }
+
+    #presentation-container {
+        text-align: left;
+    }
+}
+
+@media (min-width: 20.0rem) 
+and (orientation: portrait) {
+    .row .column.column-66, .row .column.column-67 {
+        max-width: 100%;
+    }
+
+    #presentation-container {
+        text-align: left;
+    }
+
+    .vertical-line {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 20.0rem) 
+and (orientation: landscape) {
+    .row .column.column-66, .row .column.column-67 {
+        max-width: 100%;
+    }
+
+    #presentation-container {
+        text-align: left;
+    }
+}
+
+/* ----------- min-width: 40.0rem ----------- */
+
+@media (min-width: 40.0rem) {
+    /*.row .column.column-66, .row .column.column-67 {
+        max-width: 100%;
+    }*/
+
+    #presentation-container {
+        text-align: right;
+    }
+
+    .vertical-line {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 40.0rem) 
+and (orientation: portrait) {
+    #presentation-container {
+        text-align: right;
+    }
+
+    .vertical-line {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media (min-width: 40.0rem) 
+and (orientation: landscape) {
+    #presentation-container {
+        text-align: right;
+    }
+
+    .vertical-line {
+        display: block;
+        visibility: visible;
+    }
+}
+
+/* ----------- min-width: 47.0rem ----------- */
+
+@media (min-width: 47.0rem) {
+    /*.row .column.column-66, .row .column.column-67 {
+        max-width: 100%;
+    }*/
+
+    #card-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        background: #ffffff;
+    }
+
+    #presentation-container {
+        text-align: right;
+    }
+
+    .vertical-line {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 47.0rem) 
+and (orientation: portrait) {
+    #card-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        background: #ffffff;
+    }
+
+    #presentation-container {
+        text-align: right;
+    }
+
+    .vertical-line {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media (min-width: 47.0rem) 
+and (orientation: landscape) {
+    #card-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        background: #ffffff;
+    }
+
+    #presentation-container {
+        text-align: right;
+    }
+
+    .vertical-line {
+        display: block;
+        visibility: visible;
+    }
+}
+
+/* ----------- min-width: 80.0rem ----------- */
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+    #card-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        background: #ffffff;
+    }
+
+    #presentation-container {
+        text-align: right;
+    }
+}
+}
+
+/* ----------- min-width: 120.0rem ----------- */
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
+    #card-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        background: #ffffff;
+    }
+
+    #presentation-container {
+        text-align: right;
+    }
+}
